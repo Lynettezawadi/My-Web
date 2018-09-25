@@ -1,0 +1,87 @@
+#blinker
+{
+    text-decoration: underline;
+    text-align: center;
+    color: crimson;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+
+
+#centering
+{
+    background-color: white;
+    /*text-align: center;*/
+}
+body
+{
+    background-image: linear-gradient(to right, #ffbdc7,#caceff,#c1fffa) ;
+}
+#me
+{
+    color: blue;
+}
+@font-face
+{
+    font-family: newfont;
+    src:url("Fonts/me.TTF");
+}
+h1
+{
+    font-family: newfont;
+    font-weight: bold;
+}
+@font-face
+{
+    font-family: newfont2;
+    src: url("Fonts/you.ttf");
+}
+h3
+{
+    font-family: newfont2;
+}
+a
+{
+    font-family: newfont;
+}
+@font-face
+{
+    font-family: lyn;
+    src: url("Fonts/us.ttf");
+}
+#d
+{
+    /*font-family: lyn;*/
+}
+
